@@ -1,0 +1,23 @@
+title = "Config Manage"
+
+[database]
+type="mysql"
+host="localhost"
+port=3306
+username="root"
+password=""
+name=""
+
+[server]
+appKey=""
+ip="0.0.0.0"
+port=8080
+mode="init"
+webhook="http://webhookurl"
+lruSize=50  # LRU缓存文件数
+
+[redis]
+db=0
+network="tcp"
+address="127.0.0.1:6379"
+password=""

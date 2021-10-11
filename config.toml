@@ -1,0 +1,23 @@
+title = "Go Framework"
+
+[database]
+type="mysql"
+host="localhost"
+port=3306
+username="root"
+password="roottest123"
+name="gotest"
+
+[server]
+appKey="OzMeDSvb6yzeCKHeayB64rpiWQGMNei2JwWXk6l5QlX3SUEJKQIA0qK2qHcqsraz"
+ip="0.0.0.0"
+port=8080
+mode="init"
+webhook="http://127.0.0.1:8080/webhook/test"
+lruSize=50 # lru缓存量
+
+[redis]
+db=0
+network="tcp"
+address="127.0.0.1:6379"
+password="redistest123"
