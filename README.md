@@ -46,3 +46,6 @@ password=""
 ```
 bin/configmanage-server config.toml
 ```
+
+## Api
+https://documenter.getpostman.com/view/2406114/UV5dcuF1
